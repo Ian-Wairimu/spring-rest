@@ -1,0 +1,173 @@
+2022-06-27 06:00:13.339  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : Starting SpringRestApplication using Java 17.0.3 on moon with PID 26968 (/home/wairimuian/IdeaProjects/spring-rest/target/classes started by wairimuian in /home/wairimuian/IdeaProjects/spring-rest)
+2022-06-27 06:00:13.342  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-27 06:00:15.271  INFO 26968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-27 06:00:15.271  INFO 26968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-27 06:00:17.522  INFO 26968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-27 06:00:17.664  INFO 26968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interfaces.
+2022-06-27 06:00:20.035  INFO 26968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-27 06:00:20.049  INFO 26968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-27 06:00:20.049  INFO 26968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-27 06:00:20.184  INFO 26968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-27 06:00:20.185  INFO 26968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4913 ms
+2022-06-27 06:00:20.397  INFO 26968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-27 06:00:20.801  INFO 26968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-27 06:00:20.823  INFO 26968 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:3b5ca0ea-1229-41ab-af95-b841fc1da576'
+2022-06-27 06:00:21.321  INFO 26968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-27 06:00:21.436  INFO 26968 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-27 06:00:21.823  INFO 26968 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-27 06:00:22.084  INFO 26968 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-27 06:00:22.972  INFO 26968 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-27 06:00:22.999  INFO 26968 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:00:23.506  WARN 26968 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 06:00:24.200  INFO 26968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-27 06:00:24.313  INFO 26968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-27 06:00:24.337  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : Started SpringRestApplication in 13.289 seconds (JVM running for 19.25)
+2022-06-27 06:00:24.539  INFO 26968 --- [restartedMain] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=1, name='ian moon', role='software engineer'}
+2022-06-27 06:00:24.543  INFO 26968 --- [restartedMain] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=2, name='Kelvin Kimani', role='Devops engineer'}
+2022-06-27 06:03:29.900  INFO 26968 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:03:29.901  INFO 26968 --- [Thread-5] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-27 06:03:30.116  WARN 26968 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-06-27 06:03:30.117  INFO 26968 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-27 06:03:30.121  INFO 26968 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-27 06:03:56.696  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : Starting SpringRestApplication using Java 17.0.3 on moon with PID 26968 (/home/wairimuian/IdeaProjects/spring-rest/target/classes started by wairimuian in /home/wairimuian/IdeaProjects/spring-rest)
+2022-06-27 06:03:56.697  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-27 06:03:56.915  INFO 26968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-27 06:03:56.916  INFO 26968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-06-27 06:03:57.070  INFO 26968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-27 06:03:57.071  INFO 26968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-27 06:03:57.071  INFO 26968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-27 06:03:57.129  INFO 26968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-27 06:03:57.129  INFO 26968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 428 ms
+2022-06-27 06:03:57.150  INFO 26968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-06-27 06:03:57.155  INFO 26968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-06-27 06:03:57.155  INFO 26968 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7888a83f-a56b-4f3a-a46d-2c0849888124'
+2022-06-27 06:03:57.204  INFO 26968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-27 06:03:57.211  INFO 26968 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-27 06:03:57.224  INFO 26968 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-27 06:03:57.225  INFO 26968 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:03:57.276  WARN 26968 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 06:03:57.501  INFO 26968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-27 06:03:57.515  INFO 26968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-27 06:03:57.522  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : Started SpringRestApplication in 0.872 seconds (JVM running for 232.435)
+2022-06-27 06:03:57.524  INFO 26968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-27 06:03:59.914  INFO 26968 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:03:59.914  INFO 26968 --- [Thread-12] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-27 06:04:00.116  WARN 26968 --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-06-27 06:04:00.117  INFO 26968 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-06-27 06:04:00.129  INFO 26968 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-06-27 06:04:00.291  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : Starting SpringRestApplication using Java 17.0.3 on moon with PID 26968 (/home/wairimuian/IdeaProjects/spring-rest/target/classes started by wairimuian in /home/wairimuian/IdeaProjects/spring-rest)
+2022-06-27 06:04:00.292  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-27 06:04:00.499  INFO 26968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-27 06:04:00.506  INFO 26968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-06-27 06:04:00.620  INFO 26968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-27 06:04:00.621  INFO 26968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-27 06:04:00.622  INFO 26968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-27 06:04:00.634  INFO 26968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-27 06:04:00.634  INFO 26968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 339 ms
+2022-06-27 06:04:00.657  INFO 26968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-06-27 06:04:00.661  INFO 26968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-06-27 06:04:00.661  INFO 26968 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5a89573a-ce9a-46f9-959a-3a7d43d40062'
+2022-06-27 06:04:00.721  INFO 26968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-27 06:04:00.735  INFO 26968 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-27 06:04:00.782  INFO 26968 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-27 06:04:00.782  INFO 26968 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:04:00.946  WARN 26968 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 06:04:01.157  INFO 26968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-27 06:04:01.178  INFO 26968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-27 06:04:01.185  INFO 26968 --- [restartedMain] c.w.springrest.SpringRestApplication     : Started SpringRestApplication in 0.934 seconds (JVM running for 236.098)
+2022-06-27 06:04:01.209  INFO 26968 --- [restartedMain] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=1, name='ian moon', role='software engineer'}
+2022-06-27 06:04:01.215  INFO 26968 --- [restartedMain] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=2, name='Kelvin Kimani', role='Devops engineer'}
+2022-06-27 06:04:01.217  INFO 26968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-27 06:04:04.059  INFO 35240 --- [main] c.w.s.SpringRestApplicationTests         : Starting SpringRestApplicationTests using Java 17.0.3 on moon with PID 35240 (started by wairimuian in /home/wairimuian/IdeaProjects/spring-rest)
+2022-06-27 06:04:04.062  INFO 35240 --- [main] c.w.s.SpringRestApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-06-27 06:04:06.333  INFO 35240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-27 06:04:06.408  INFO 35240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-06-27 06:04:07.454  INFO 35240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-27 06:04:07.847  INFO 35240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-27 06:04:08.043  INFO 35240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-27 06:04:08.148  INFO 35240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-27 06:04:08.448  INFO 35240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-27 06:04:08.696  INFO 35240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-27 06:04:09.497  INFO 35240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-27 06:04:09.509  INFO 35240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:04:10.354  WARN 35240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 06:04:11.381  INFO 35240 --- [main] c.w.s.SpringRestApplicationTests         : Started SpringRestApplicationTests in 7.922 seconds (JVM running for 10.048)
+2022-06-27 06:04:11.491  INFO 35240 --- [main] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=1, name='ian moon', role='software engineer'}
+2022-06-27 06:04:11.494  INFO 35240 --- [main] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=2, name='Kelvin Kimani', role='Devops engineer'}
+2022-06-27 06:04:12.040  INFO 35240 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:04:12.044  INFO 35240 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-27 06:04:12.053  INFO 35240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-27 06:04:12.059  INFO 35240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-27 06:05:37.666  INFO 35363 --- [main] c.w.springrest.SpringRestApplication     : Starting SpringRestApplication v0.0.1-SNAPSHOT using Java 17.0.3 on moon with PID 35363 (/home/wairimuian/IdeaProjects/spring-rest/target/spring-rest-0.0.1-SNAPSHOT.jar started by wairimuian in /home/wairimuian/IdeaProjects/spring-rest)
+2022-06-27 06:05:37.673  INFO 35363 --- [main] c.w.springrest.SpringRestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-27 06:05:39.521  INFO 35363 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-27 06:05:39.656  INFO 35363 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interfaces.
+2022-06-27 06:05:41.304  INFO 35363 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-27 06:05:41.371  INFO 35363 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-27 06:05:41.372  INFO 35363 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-27 06:05:41.590  INFO 35363 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-27 06:05:41.591  INFO 35363 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3747 ms
+2022-06-27 06:05:42.162  INFO 35363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-27 06:05:42.823  INFO 35363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-27 06:05:42.984  INFO 35363 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-27 06:05:43.105  INFO 35363 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-27 06:05:43.586  INFO 35363 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-27 06:05:44.048  INFO 35363 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-27 06:05:45.151  INFO 35363 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-27 06:05:45.166  INFO 35363 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:05:46.235  WARN 35363 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 06:05:47.663  WARN 35363 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-27 06:05:47.669  INFO 35363 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:05:47.670  INFO 35363 --- [main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-27 06:05:47.677  INFO 35363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-27 06:05:47.689  INFO 35363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-27 06:05:47.693  INFO 35363 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-27 06:05:47.731  INFO 35363 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-27 06:05:47.786 ERROR 35363 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-27 06:05:57.073  INFO 26968 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:05:57.075  INFO 26968 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-27 06:05:57.284  WARN 26968 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-06-27 06:05:57.285  INFO 26968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-06-27 06:05:57.287  INFO 26968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-06-27 06:06:06.895  INFO 35415 --- [main] c.w.springrest.SpringRestApplication     : Starting SpringRestApplication v0.0.1-SNAPSHOT using Java 17.0.3 on moon with PID 35415 (/home/wairimuian/IdeaProjects/spring-rest/target/spring-rest-0.0.1-SNAPSHOT.jar started by wairimuian in /home/wairimuian/IdeaProjects/spring-rest)
+2022-06-27 06:06:06.902  INFO 35415 --- [main] c.w.springrest.SpringRestApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-27 06:06:08.490  INFO 35415 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-27 06:06:08.584  INFO 35415 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-06-27 06:06:09.832  INFO 35415 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-27 06:06:09.858  INFO 35415 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-27 06:06:09.859  INFO 35415 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-06-27 06:06:10.053  INFO 35415 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-27 06:06:10.054  INFO 35415 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2969 ms
+2022-06-27 06:06:10.383  INFO 35415 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-27 06:06:10.786  INFO 35415 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-27 06:06:10.895  INFO 35415 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-27 06:06:10.987  INFO 35415 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-27 06:06:11.301  INFO 35415 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-27 06:06:11.491  INFO 35415 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-27 06:06:12.543  INFO 35415 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-27 06:06:12.559  INFO 35415 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:06:13.244  WARN 35415 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-27 06:06:14.341  INFO 35415 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-27 06:06:14.390  INFO 35415 --- [main] c.w.springrest.SpringRestApplication     : Started SpringRestApplication in 8.691 seconds (JVM running for 9.894)
+2022-06-27 06:06:14.547  INFO 35415 --- [main] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=1, name='ian moon', role='software engineer'}
+2022-06-27 06:06:14.551  INFO 35415 --- [main] c.w.springrest.configuration.LoadItems   : Preloading Employee{Id=2, name='Kelvin Kimani', role='Devops engineer'}
+2022-06-27 06:25:07.727  WARN 35415 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s830ms619µs310ns).
+2022-06-27 06:25:07.842  INFO 35415 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-27 06:25:07.843  INFO 35415 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-27 06:25:07.853  INFO 35415 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-27 06:25:07.861  INFO 35415 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
